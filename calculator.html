@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Weight Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1> <img src="logo.png" alt=" Logo" class="logo"> WeightTracker</h1>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="calculator.html">BMI Calculator</a></li>
+              <li><a href="register.html">Register</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>BMI Calculator</h2>
+            <div class="calc-box">
+                <label for="weight-input">Weight (kg):</label>
+                <input type="number" id="weight-input" placeholder="e.g. 70">
+
+                <label for="height-input">Height (cm):</label>
+                <input type="number" id="height-input" placeholder="e.g. 175">
+
+                <button id="calculate-btn">Calculate BMI</button>
+
+                <div class="result-area">
+                    <h3 id="result-display"></h3>
+                    <p id="result-message"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>المطورون: معاذ محمد الشهري و ياسر سامح علي</p>
+        <p>إخلاء المسئولية: نود التنويه أن كل ما ذكر في المشروع يعبر عن رأي مطوري الموقع، وتم جمعه من مصادر مفتوحة. وإن
+ثبت غير ذلك، فيعد ذلك خرق لحقوق الملكية الفكرية ويتحمل مطوري الموقع تبعاته القانونية.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
