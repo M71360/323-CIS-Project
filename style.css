@@ -47,7 +47,7 @@ header a {
 }
 
 header a:hover {
-    color: green;
+    color: #28a745;
 }
 
 main {
@@ -103,5 +103,6 @@ button {
 button:hover {
     background-color: #218838;
 }
+
 
 
