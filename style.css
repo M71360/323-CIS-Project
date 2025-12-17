@@ -46,6 +46,10 @@ header a {
     font-weight: bold;
 }
 
+header a:hover {
+    color: green;
+}
+
 main {
     flex: 1;
     padding: 20px;
@@ -100,6 +104,4 @@ button:hover {
     background-color: #218838;
 }
 
-a:hover {
-    color:green;
-}
+
